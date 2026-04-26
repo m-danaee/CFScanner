@@ -1,0 +1,549 @@
+proxies:
+  - name: "ezaccess.lol-188.114.99.93-colo-AMS-score-43.23-DL-only"
+    type: vless
+    server: 188.114.99.93
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.98.101-colo-AMS-score-38.34-DL-only"
+    type: vless
+    server: 188.114.98.101
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.96.238-colo-AMS-score-37.87-DL-only"
+    type: vless
+    server: 188.114.96.238
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.99.45-colo-AMS-score-36.87-DL-only"
+    type: vless
+    server: 188.114.99.45
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.93-colo-AMS-score-35.41-DL-only"
+    type: vless
+    server: 188.114.97.93
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.204-colo-AMS-score-35.19-DL-only"
+    type: vless
+    server: 188.114.97.204
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.98.159-colo-AMS-score-34.85-DL-only"
+    type: vless
+    server: 188.114.98.159
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.146-colo-AMS-score-34.17-DL-only"
+    type: vless
+    server: 188.114.97.146
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.96.124-colo-AMS-score-33.58-DL-only"
+    type: vless
+    server: 188.114.96.124
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.205-colo-AMS-score-33.36-DL-only"
+    type: vless
+    server: 188.114.97.205
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.99.87-colo-AMS-score-33.33-DL-only"
+    type: vless
+    server: 188.114.99.87
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.104-colo-AMS-score-33.27-DL-only"
+    type: vless
+    server: 188.114.97.104
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.96.65-colo-AMS-score-33.12-DL-only"
+    type: vless
+    server: 188.114.96.65
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.96.187-colo-AMS-score-33.11-DL-only"
+    type: vless
+    server: 188.114.96.187
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.96.237-colo-AMS-score-32.87-DL-only"
+    type: vless
+    server: 188.114.96.237
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.112-colo-AMS-score-32.10-DL-only"
+    type: vless
+    server: 188.114.97.112
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.245-colo-AMS-score-31.13-DL-only"
+    type: vless
+    server: 188.114.97.245
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.98.177-colo-AMS-score-31.01-DL-only"
+    type: vless
+    server: 188.114.98.177
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.96-colo-AMS-score-30.91-DL-only"
+    type: vless
+    server: 188.114.97.96
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.99.207-colo-AMS-score-30.29-DL-only"
+    type: vless
+    server: 188.114.99.207
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.98.87-colo-AMS-score-30.14-DL-only"
+    type: vless
+    server: 188.114.98.87
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.96.52-colo-AMS-score-29.69-DL-only"
+    type: vless
+    server: 188.114.96.52
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.99.199-colo-AMS-score-29.63-DL-only"
+    type: vless
+    server: 188.114.99.199
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.99.176-colo-AMS-score-29.41-DL-only"
+    type: vless
+    server: 188.114.99.176
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.118-colo-AMS-score-29.40-DL-only"
+    type: vless
+    server: 188.114.97.118
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.98.2-colo-AMS-score-29.07-DL-only"
+    type: vless
+    server: 188.114.98.2
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.89-colo-AMS-score-28.82-DL-only"
+    type: vless
+    server: 188.114.97.89
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.98.91-colo-AMS-score-28.77-DL-only"
+    type: vless
+    server: 188.114.98.91
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.97.249-colo-AMS-score-28.70-DL-only"
+    type: vless
+    server: 188.114.97.249
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - name: "ezaccess.lol-188.114.96.176-colo-AMS-score-28.63-DL-only"
+    type: vless
+    server: 188.114.96.176
+    port: 443
+    uuid: "b60c3a8b-1e4d-4188-912e-00cf870313e8"
+    udp: true
+    tls: true
+    servername: ezaccess.lol
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: ezaccess.lol
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+
+proxy-groups:
+  - name: AUTO
+    type: select
+    proxies:
+      - "ezaccess.lol-188.114.99.93-colo-AMS-score-43.23-DL-only"
+      - "ezaccess.lol-188.114.98.101-colo-AMS-score-38.34-DL-only"
+      - "ezaccess.lol-188.114.96.238-colo-AMS-score-37.87-DL-only"
+      - "ezaccess.lol-188.114.99.45-colo-AMS-score-36.87-DL-only"
+      - "ezaccess.lol-188.114.97.93-colo-AMS-score-35.41-DL-only"
+      - "ezaccess.lol-188.114.97.204-colo-AMS-score-35.19-DL-only"
+      - "ezaccess.lol-188.114.98.159-colo-AMS-score-34.85-DL-only"
+      - "ezaccess.lol-188.114.97.146-colo-AMS-score-34.17-DL-only"
+      - "ezaccess.lol-188.114.96.124-colo-AMS-score-33.58-DL-only"
+      - "ezaccess.lol-188.114.97.205-colo-AMS-score-33.36-DL-only"
+      - "ezaccess.lol-188.114.99.87-colo-AMS-score-33.33-DL-only"
+      - "ezaccess.lol-188.114.97.104-colo-AMS-score-33.27-DL-only"
+      - "ezaccess.lol-188.114.96.65-colo-AMS-score-33.12-DL-only"
+      - "ezaccess.lol-188.114.96.187-colo-AMS-score-33.11-DL-only"
+      - "ezaccess.lol-188.114.96.237-colo-AMS-score-32.87-DL-only"
+      - "ezaccess.lol-188.114.97.112-colo-AMS-score-32.10-DL-only"
+      - "ezaccess.lol-188.114.97.245-colo-AMS-score-31.13-DL-only"
+      - "ezaccess.lol-188.114.98.177-colo-AMS-score-31.01-DL-only"
+      - "ezaccess.lol-188.114.97.96-colo-AMS-score-30.91-DL-only"
+      - "ezaccess.lol-188.114.99.207-colo-AMS-score-30.29-DL-only"
+      - "ezaccess.lol-188.114.98.87-colo-AMS-score-30.14-DL-only"
+      - "ezaccess.lol-188.114.96.52-colo-AMS-score-29.69-DL-only"
+      - "ezaccess.lol-188.114.99.199-colo-AMS-score-29.63-DL-only"
+      - "ezaccess.lol-188.114.99.176-colo-AMS-score-29.41-DL-only"
+      - "ezaccess.lol-188.114.97.118-colo-AMS-score-29.40-DL-only"
+      - "ezaccess.lol-188.114.98.2-colo-AMS-score-29.07-DL-only"
+      - "ezaccess.lol-188.114.97.89-colo-AMS-score-28.82-DL-only"
+      - "ezaccess.lol-188.114.98.91-colo-AMS-score-28.77-DL-only"
+      - "ezaccess.lol-188.114.97.249-colo-AMS-score-28.70-DL-only"
+      - "ezaccess.lol-188.114.96.176-colo-AMS-score-28.63-DL-only"
+
+rules:
+  - MATCH,AUTO

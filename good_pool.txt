@@ -1,0 +1,9 @@
+104.17.69.88	DL-only	ping=104ms	dl=24.27	ul=-	colo=AMS	score=15.26
+104.17.66.96	DL-only	ping=106ms	dl=23.80	ul=-	colo=AMS	score=14.89
+104.17.69.177	DL-only	ping=102ms	dl=21.70	ul=-	colo=AMS	score=13.49
+104.17.70.217	DL-only	ping=101ms	dl=20.23	ul=-	colo=AMS	score=12.48
+104.17.68.48	DL-only	ping=103ms	dl=14.63	ul=-	colo=-	score=8.52
+104.17.64.173	DL-only	ping=154ms	dl=12.78	ul=-	colo=AMS	score=6.38
+104.17.70.92	DL-only	ping=114ms	dl=11.79	ul=-	colo=AMS	score=6.35
+104.17.71.16	UL-only	ping=102ms	dl=-	ul=10.54	colo=-	score=5.68
+104.17.65.108	DL-only	ping=112ms	dl=9.58	ul=-	colo=AMS	score=4.84
