@@ -742,7 +742,14 @@ class MainWindow(QMainWindow):
         row += 1
         top.addWidget(self.start_btn, row, 1); top.addWidget(self.stop_btn, row, 2)
 
-        outer.addLayout(top)
+        form_widget = QWidget()
+        form_widget.setLayout(top)
+        form_scroll = QScrollArea()
+        form_scroll.setWidgetResizable(True)
+        form_scroll.setFrameShape(QFrame.NoFrame)
+        form_scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        form_scroll.setWidget(form_widget)
+        outer.addWidget(form_scroll)
 
         self.progress = QProgressBar()
         self.progress.setRange(0, 100)
@@ -812,6 +819,8 @@ class MainWindow(QMainWindow):
     def _apply_theme(self):
         self.setStyleSheet("""
             QMainWindow { background: #0b0f19; }
+            QScrollArea { background: transparent; border: none; }
+            QScrollArea > QWidget > QWidget { background: transparent; }
             QLabel { color: #e7ecff; }
             QLineEdit, QSpinBox, QDoubleSpinBox, QTextEdit {
                 background: #101a2b;
